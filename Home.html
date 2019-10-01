@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="../img/logo1.png">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../js/jquery-3.4.1.js"></script>
+</head>
+<body>
+<header>
+	<img src="../img/logo.png" class="logo">
+	<div id="time">
+		<p id="date"></p>
+	</div>
+	<h1 class="dev">Dev C++ programiranje</h1>
+	<div class="clr"></div>
+	<nav>
+		<ul>
+			<li class="nav"><a href="Home.html">Home</a></li>
+			<li class="nav"><a href="About.html">About</a></li>
+			<li class="nav"><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<article>
+	<section>
+		<button id="klik">Traži zadatak</button>
+		<form action="Submit.php" method="POST" id="form">
+			<label class="submit">Type the text of the program you want to see done: </label>
+			<input type="text" name="Zadatak" class="submit" id="zd"><br>
+			<label class="submit">Type your E-Mail Address:</label>
+			<input type="text" name="E-Mail" class="submit" id="email">
+		</form>
+		<input type="submit" value="Submit" id="submit">
+		<button id="reset">Reset</button>
+		<h1 id="naslov">Here you'll find some of C++ codes </h1>
+		<ul>
+			<li class="task"><a href="../Source codes/1-10.cpp" class="code" target="_blank" onclick="Otvori()">Write a programm which give as output all numbers from 1 to 10</a></li>
+			<li class="task"><a href="../Source codes/10-1.cpp" class="code" target="_blank" onclick="Otvori()">Write a programm which give as output all numbers from 10 to 1</a></li>
+			<li class="task"><a href="../Source codes/Aritmetička sredina brojeva (while loop).cpp" class="code" target="_blank" onclick="Otvori()">Write a programm which calculate the arithmetic mean.</a></li>
+			<li class="task"><a href="../Source codes/beskonačna for petlja.cpp" class="code" target="_blank" onclick="Otvori()">Write a programm which contains endless for loop</a></li>
+			<li class="task"><a href="../Source codes/Beskonačna while petlja.cpp" class="code" target="_blank" onclick="Otvori()">Write a programm which contains endless while loop</a></li>
+		</ul>
+	</section>
+</article>
+<footer>
+	<h3>If you don't understand programm code, but still you can write one which work, then you are a good programmer. And if you understand programm code and you can write one which work you are expert programmer.</h3>
+	<img src="../img/copyright.png" id="cr">
+	<p id="cr">2019 Ammar Ćordić <br>All right reserved.</p>
+</footer>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
